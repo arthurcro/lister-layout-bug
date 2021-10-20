@@ -12,7 +12,7 @@ import UIKit
 // 181.0 --> 181.0
 
 
-let cellSize = CGSize(width: UIScreen.main.bounds.width / 2 - 6, height: 200)
+let cellSize = CGSize(width: ((UIScreen.main.bounds.width / 2) - 6.0).rounded(.down), height: 200)
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
